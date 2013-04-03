@@ -82,5 +82,15 @@ public class A1ex1{
         
         System.exit(0);
     }
+    /**
+    public static boolean isPrime(int x){
+        for (int x=2; i<=Math.sqrt(x); i++ ){
+            if (x % i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+    */
 
 }
