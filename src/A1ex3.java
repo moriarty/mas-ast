@@ -66,7 +66,7 @@ public class A1ex3 extends A1ex2 {
         String foo = "|%-18s";
         System.out.printf(foo+foo+foo+foo+foo+foo,"percision","Pi","Area","% increase", "Circ.","% increase");
         for (int i=0; i<n; i++){
-            long fooPi = Math.round(Math.PI*Math.pow(10, i));
+            double fooPi = Math.floor(Math.PI*Math.pow(10, i));
             double thisPi = fooPi*Math.pow(10, -i);
             // Output increase in percentage of circumference and area over the previous iteration.
             //Area = pi/4 * D^2, Circ = pi*d

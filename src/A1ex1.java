@@ -32,7 +32,6 @@ public class A1ex1{
                 foo = scan.nextInt();
                 values[count] = foo;
                 count++;
-                
             } catch (InputMismatchException e){
                 System.out.print("That wasn't an integer.\n");
             }
