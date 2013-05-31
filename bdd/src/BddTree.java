@@ -11,9 +11,18 @@ public class BddTree {
     /**
      * @param args
      */
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
+    private BddNode root;
+    
+    public BddTree(){
+        setRoot(null);
+    }
 
+    public BddNode getRoot() {
+        return root;
+    }
+
+    public void setRoot(BddNode root) {
+        this.root = root;
     }
 
 }
