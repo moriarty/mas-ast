@@ -14,7 +14,14 @@ public class BddNode {
     private BddNode high; 
     private BddNode low; 
     int variable;
-
+    
+    // Set of incoming arcs
+    
+    /**
+     * 
+     * 
+     * @param newData
+     */
     BddNode(int newData) { 
       setHigh(null); 
       setLow(null); 

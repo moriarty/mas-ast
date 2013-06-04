@@ -3,13 +3,13 @@
  */
 
 /**
- * @author alex
+ * @author Alexander Moriarty
  *
  */
 public class BddTree {
 
     /**
-     * @param args
+     * root is the where the BddTree begins
      */
     private BddNode root;
     
