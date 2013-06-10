@@ -1,0 +1,16 @@
+digraph G {
+f -> 1 [color=green];
+f -> 0 [color=red];
+d -> 0 [color=green];
+d -> 1 [color=red];
+e -> 1 [color=green];
+e -> 0 [color=red];
+b -> d [color=green];
+b -> e [color=red];
+c -> 1 [color=green];
+c -> f [color=red];
+a -> b [color=green];
+a -> c [color=red];
+1 [shape=box, style=filled, color=green];
+0 [shape=box, style=filled, color=red];
+}
